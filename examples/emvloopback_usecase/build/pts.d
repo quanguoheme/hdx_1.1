@@ -1,0 +1,14 @@
+.\build\pts.o: ..\..\drivers\max3255X\source\sci\PTS.c
+.\build\pts.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/sc_errors.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/sc_types.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/sc_states.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/sc_types.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/OS_types.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/slot.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/sc_regs.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/ProtocolT0.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/smartcard_api.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/iccabstract.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/ATR.h
+.\build\pts.o: ../../drivers/max3255X/include/sci/PTS.h

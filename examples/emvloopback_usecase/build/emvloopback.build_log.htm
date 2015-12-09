@@ -1,0 +1,120 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\examples\emvloopback_usecase\emvloopback_usecase.uvproj
+Project File Date:  12/09/2015
+
+<h2>Output:</h2>
+Build Project 'emvloopback_usecase' - Target 'Target 1'
+linking...
+Program Size: Code=24546 RO-data=282 RW-data=548 ZI-data=84316  
+FromELF: creating hex file...
+After Build - User command #1: ..\..\tools\signit.bat "C:\Keil\" "C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\examples\emvloopback_usecase\build\" ".\build\emvloopback.axf" "emvloopback" MAX32550
+Path to fromelf.exe: C:\Keil\
+Path to axf file (linker output) dir: C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\examples\emvloopback_usecase\build\
+Linker output file name: .\build\emvloopback.axf
+Project name: emvloopback
+Device name: MAX32550
+Removing old build files
+Extract raw binary from .axf file
+Sign binary file
+MAX32550 Signing Tool Selected
+CA signature build v1.5.2 (build 99-K) (c)Maxim Integrated 2006-2014
+Convert signed binary to hex for Keil loading
+Read 24984 bytes.
+Convert signed binary to packet stream for SCP loading.
+Read 24984 bytes.
+SBL/SCP packets builder v3.7.14 (build 99-K) (c)Maxim Integrated 2006-2015
+--warning: this tool does not handle keys in a PCI PTS compliant way --
+WARNING: <.\session_build.ini> not found
+<C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\examples\emvloopback_usecase\build\scp_packets\scp_packets.output.log> created
+复制了 67 个文件
+Build Succeeded.
+".\build\emvloopback.axf" - 0 Error(s), 0 Warning(s).
+: emvloopback
+Device name: MAX32550
+Removing old build files
+Extract raw binary from .axf file
+Sign binary file
+MAX32550 Signing Tool Selected
+CA signature build v1.5.2 (build 99-K) (c)Maxim Integrated 2006-2014
+Convert signed binary to hex for Keil loading
+Read 24984 bytes.
+Convert signed binary to packet stream for SCP loading.
+Read 24984 bytes.
+SBL/SCP packets builder v3.7.14 (build 99-K) (c)Maxim Integrated 2006-2015
+--warning: this tool does not handle keys in a PCI PTS compliant way --
+WARNING: <.\session_build.ini> not found
+<C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\examples\emvloopback_usecase\build\scp_packets\scp_packets.output.log> created
+复制了 67 个文件
+Build Succeeded.
+".\build\emvloopback.axf" - 0 Error(s), 3 Warning(s).
+ FIME lab patch for test EMVCO 1CF.126.0y is enabled, read the source code comments to get details.
+  #warning The CETECOM and FIME lab patch for test EMVCO 1CF.126.0y is enabled, read the source code comments to get details.
+..\..\drivers\max3255X\source\sci\ProtocolT1.c: 1 warning, 0 errors
+compiling ProtocolT1_BlockMgt.c...
+compiling PTS.c...
+compiling smartcard_api.c...
+compiling MAX3255x_AFE.c...
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(297): warning:  #188-D: enumerated type mixed with another type
+                                                        if ( mml_gpio_read_bit_pattern(0, 26, 1, (unsigned int*)&tmp)) 
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(426): warning:  #188-D: enumerated type mixed with another type
+                                        if ( mml_gpio_read_bit_pattern(0, 14, 2, (unsigned int*)&tmp)) 
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(596): warning:  #188-D: enumerated type mixed with another type
+                                config.gpio_intr_mode = MML_GPIO_TERTIARY_ALT_FUNCTION;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(603): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(611): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(619): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(626): warning:  #188-D: enumerated type mixed with another type
+                                config.gpio_intr_mode = MML_GPIO_NORMAL_FUNCTION;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(633): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(639): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(646): warning:  #188-D: enumerated type mixed with another type
+                                config.gpio_intr_mode = MML_GPIO_TERTIARY_ALT_FUNCTION;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(652): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(659): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(666): warning:  #188-D: enumerated type mixed with another type
+                                config.gpio_intr_mode = MML_GPIO_NORMAL_FUNCTION;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(673): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(680): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(687): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c(694): warning:  #188-D: enumerated type mixed with another type
+                                        return result;
+..\..\drivers\max3255X\source\sci\afe\MAX3255x_AFE.c: 17 warnings, 0 errors
+compiling MAX325xx_UART.c...
+linking...
+Program Size: Code=24546 RO-data=282 RW-data=548 ZI-data=84316  
+FromELF: creating hex file...
+After Build - User command #1: ..\..\tools\signit.bat "C:\Keil\" "C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\examples\emvloopback_usecase\build\" ".\build\emvloopback.axf" "emvloopback" MAX32550
+Path to fromelf.exe: C:\Keil\
+Path to axf file (linker output) dir: C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\examples\emvloopback_usecase\build\
+Linker output file name: .\build\emvloopback.axf
+Project name: emvloopback
+Device name: MAX32550
+Removing old build files
+Extract raw binary from .axf file
+Sign binary file
+MAX32550 Signing Tool Selected
+CA signature build v1.5.2 (build 99-K) (c)Maxim Integrated 2006-2014
+Convert signed binary to hex for Keil loading
+Read 24984 bytes.
+Convert signed binary to packet stream for SCP loading.
+Read 24984 bytes.
+SBL/SCP packets builder v3.7.14 (build 99-K) (c)Maxim Integrated 2006-2015
+--warning: this tool does not handle keys in a PCI PTS compliant way --
+WARNING: <.\session_build.ini> not found
+<C:\work\goodchip\COBRA\KEIL_MAX3255x_EMV.1.0.0\MAX3255x EMV Loopback\examples\emvloopback_usecase\build\scp_packets\scp_packets.output.log> created
+Build Succeeded.
+".\build\emvloopback.axf" - 0 Error(s), 23 Warning(s).

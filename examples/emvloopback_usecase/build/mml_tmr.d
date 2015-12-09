@@ -1,0 +1,13 @@
+.\build\mml_tmr.o: ..\..\drivers\max3255X\source\mml_tmr.c
+.\build\mml_tmr.o: ../../include/config.h
+.\build\mml_tmr.o: ../../include/errors.h
+.\build\mml_tmr.o: ../../include/io.h
+.\build\mml_tmr.o: ../../drivers/max3255X/include/arch/mml.h
+.\build\mml_tmr.o: ../../drivers/max3255X/include/arch/mml_io.h
+.\build\mml_tmr.o: ../../drivers/max3255X/include/dev/mml_gcr_regs.h
+.\build\mml_tmr.o: ../../drivers/max3255X/include/mml_intc.h
+.\build\mml_tmr.o: ../../drivers/max3255X/include/dev/mml_intc_regs.h
+.\build\mml_tmr.o: ../../drivers/max3255X/include/dev/mml_nvic_regs.h
+.\build\mml_tmr.o: ../../include/cobra_defines.h
+.\build\mml_tmr.o: ../../drivers/max3255X/include/mml_tmr.h
+.\build\mml_tmr.o: ../../drivers/max3255X/include/dev/mml_tmr_regs.h

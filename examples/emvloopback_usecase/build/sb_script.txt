@@ -1,0 +1,1 @@
+write-file C:\work\goodchip\COBRA\KEIL_M~1.0\MAX325~1\examples\EMVLOO~1\build\signed.s19 

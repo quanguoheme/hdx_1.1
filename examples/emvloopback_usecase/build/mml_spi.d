@@ -1,0 +1,14 @@
+.\build\mml_spi.o: ..\..\drivers\max3255X\source\mml_spi.c
+.\build\mml_spi.o: ../../include/config.h
+.\build\mml_spi.o: ../../include/errors.h
+.\build\mml_spi.o: ../../drivers/max3255X/include/arch/mml.h
+.\build\mml_spi.o: ../../include/io.h
+.\build\mml_spi.o: ../../drivers/max3255X/include/mml_gcr.h
+.\build\mml_spi.o: ../../drivers/max3255X/include/dev/mml_gcr_regs.h
+.\build\mml_spi.o: ../../drivers/max3255X/include/dev/mml_gpio_regs.h
+.\build\mml_spi.o: ../../include/cobra_defines.h
+.\build\mml_spi.o: ../../include/cobra_macros.h
+.\build\mml_spi.o: ../../include/cobra_functions.h
+.\build\mml_spi.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\build\mml_spi.o: ../../drivers/max3255X/include/dev/mml_spi_regs.h
+.\build\mml_spi.o: ../../drivers/max3255X/include/mml_spi.h

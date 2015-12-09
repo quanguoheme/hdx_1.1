@@ -1,0 +1,9 @@
+.\build\private.o: src\private.c
+.\build\private.o: ../../include/config.h
+.\build\private.o: ../../include/errors.h
+.\build\private.o: ../../drivers/max3255X/include/arch/mml.h
+.\build\private.o: ../../include/io.h
+.\build\private.o: ../../drivers/max3255X/include/mml_gcr.h
+.\build\private.o: ../../drivers/max3255X/include/dev/mml_gcr_regs.h
+.\build\private.o: src\private.h
+.\build\private.o: ../../include/cobra_defines.h

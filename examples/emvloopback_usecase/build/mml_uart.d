@@ -1,0 +1,14 @@
+.\build\mml_uart.o: ..\..\drivers\max3255X\source\mml_uart.c
+.\build\mml_uart.o: ../../include/config.h
+.\build\mml_uart.o: ../../include/errors.h
+.\build\mml_uart.o: ../../drivers/max3255X/include/arch/mml_io.h
+.\build\mml_uart.o: ../../include/io.h
+.\build\mml_uart.o: ../../drivers/max3255X/include/arch/mml.h
+.\build\mml_uart.o: ../../drivers/max3255X/include/dev/mml_gcr_regs.h
+.\build\mml_uart.o: ../../drivers/max3255X/include/dev/mml_gpio_regs.h
+.\build\mml_uart.o: ../../drivers/max3255X/include/mml_intc.h
+.\build\mml_uart.o: ../../drivers/max3255X/include/dev/mml_intc_regs.h
+.\build\mml_uart.o: ../../drivers/max3255X/include/dev/mml_nvic_regs.h
+.\build\mml_uart.o: ../../include/cobra_defines.h
+.\build\mml_uart.o: ../../drivers/max3255X/include/mml_uart.h
+.\build\mml_uart.o: ../../drivers/max3255X/include/dev/mml_uart_regs.h

@@ -1,0 +1,17 @@
+.\build\mml_mcr.o: ..\..\drivers\max3255X\source\mml_mcr.c
+.\build\mml_mcr.o: ../../include/config.h
+.\build\mml_mcr.o: ../../include/errors.h
+.\build\mml_mcr.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\build\mml_mcr.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\build\mml_mcr.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\build\mml_mcr.o: ../../drivers/max3255X/include/arch/mml.h
+.\build\mml_mcr.o: ../../include/io.h
+.\build\mml_mcr.o: ../../include/cobra_defines.h
+.\build\mml_mcr.o: ../../include/cobra_macros.h
+.\build\mml_mcr.o: ../../include/cobra_functions.h
+.\build\mml_mcr.o: ../../drivers/max3255X/include/dev/mml_dma_regs.h
+.\build\mml_mcr.o: ../../drivers/max3255X/include/mml_intc.h
+.\build\mml_mcr.o: ../../drivers/max3255X/include/dev/mml_intc_regs.h
+.\build\mml_mcr.o: ../../drivers/max3255X/include/dev/mml_nvic_regs.h
+.\build\mml_mcr.o: ../../drivers/max3255X/include/mml_mcr.h
+.\build\mml_mcr.o: ../../drivers/max3255X/include/dev/mml_mcr_regs.h

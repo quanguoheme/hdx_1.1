@@ -1,0 +1,10 @@
+.\build\mml_sflc.o: ..\..\drivers\max3255X\source\mml_sflc.c
+.\build\mml_sflc.o: ../../include/config.h
+.\build\mml_sflc.o: ../../include/errors.h
+.\build\mml_sflc.o: ../../drivers/max3255X/include/arch/mml.h
+.\build\mml_sflc.o: ../../include/io.h
+.\build\mml_sflc.o: ../../include/cobra_defines.h
+.\build\mml_sflc.o: ../../include/cobra_functions.h
+.\build\mml_sflc.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\build\mml_sflc.o: ../../drivers/max3255X/include/mml_sflc.h
+.\build\mml_sflc.o: ../../drivers/max3255X/include/dev/mml_sflc_regs.h

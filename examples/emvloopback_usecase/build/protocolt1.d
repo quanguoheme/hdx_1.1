@@ -1,0 +1,16 @@
+.\build\protocolt1.o: ..\..\drivers\max3255X\source\sci\ProtocolT1.c
+.\build\protocolt1.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\build\protocolt1.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/sc_errors.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/sc_config.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/slot.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/sc_types.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/sc_states.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/sc_types.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/OS_types.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/sc_regs.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/ProtocolT0.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/smartcard_api.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/iccabstract.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/ProtocolT1.h
+.\build\protocolt1.o: ../../drivers/max3255X/include/sci/ProtocolT1_BlockMgt.h

@@ -1,0 +1,12 @@
+.\build\mml_gpio.o: ..\..\drivers\max3255X\source\mml_gpio.c
+.\build\mml_gpio.o: ../../include/config.h
+.\build\mml_gpio.o: ../../include/errors.h
+.\build\mml_gpio.o: ../../drivers/max3255X/include/arch/mml.h
+.\build\mml_gpio.o: ../../include/io.h
+.\build\mml_gpio.o: ../../drivers/max3255X/include/dev/mml_gcr_regs.h
+.\build\mml_gpio.o: ../../include/cobra_defines.h
+.\build\mml_gpio.o: ../../include/cobra_macros.h
+.\build\mml_gpio.o: ../../include/cobra_functions.h
+.\build\mml_gpio.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\build\mml_gpio.o: ../../drivers/max3255X/include/mml_gpio.h
+.\build\mml_gpio.o: ../../drivers/max3255X/include/dev/mml_gpio_regs.h
